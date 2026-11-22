@@ -22,7 +22,7 @@ function Formulaire (){
                <br></br>
                <label>Age :</label>
                <input type="text" value={Age} onChange={(e)=>setNom(e.target.value)} /> 
-              <button type="submit">Valider</button>
+              
             </form>
 
         </div>
