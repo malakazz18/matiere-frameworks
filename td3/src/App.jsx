@@ -3,6 +3,8 @@ import Header from './components/Header/Header'
 import Destinations  from "../src/destinations/Destinations"
 import Exemple from "../src/components/Exemple/Exemple"
 import Login from '../src/components/Login/Login'
+import Accueil from '../src/components/Acceuil/Accueil'
+import Apropos from '../src/components/Apropos/Apropos'
 import Footer from './components/Footer/footer';
 
 
@@ -16,6 +18,8 @@ function App() {
         <Destinations/>
         <Exemple/>
         <Login/>
+        <Accueil/>
+        <Apropos/>
       </main>
       <Footer />
     </div>
